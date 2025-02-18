@@ -6,20 +6,30 @@ import { notFound, useParams } from "next/navigation";
 
 export default function Page() {
 
-  const params = useParams();
+  const { category } = useParams();
 
-  const shipsFilter = spaceships.filter((s) => s.category === params.category)
+  if (typeof category !== 'string') {
+    return notFound()
+  }
+
+  const categorySpaceships = spaceships.filter((s) => s.category === category.replace('_', " "))
   
-  if (shipsFilter.length === 0) {
+  if (categorySpaceships.length === 0) {
     return notFound()
   }
   
   return (
     <div>
-      <h1>{params.category}</h1>
+      <h1>{category.replace('_', " ")}</h1>
       <div className="grid-container">
-        { shipsFilter.map(ship => (
-          <Link key={ship.id} href={`/spaceships/${ship.id}`} className="btn-grid">{ship.name}</Link>    
+        { categorySpaceships.map(ship => (
+          <Link 
+            key={ship.id} 
+            href={`/spaceships/${ship.id}`} 
+            className="btn-grid"
+          >
+            {ship.name}
+          </Link>    
         )) }
       </div>
     </div>

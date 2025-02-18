@@ -1,16 +1,14 @@
+"use client"
+
 import Link from "next/link"
-import spaceships from "../../../../spaceships.json"
-import { notFound } from "next/navigation";
+import spaceships from "@/data/spaceships.json"
+import { notFound, useParams } from "next/navigation";
 
-export default function Page({ params }: { params: { category: string } }) {
-  //console.log("Parâmetros recebidos:", params);
+export default function Page() {
 
-  const { category } = params;
+  const params = useParams();
 
-  //console.log("Category param:", category);
-  //console.log("Spaceships data:", spaceships);
-
-  const shipsFilter = spaceships.filter((s) => s.category === category)
+  const shipsFilter = spaceships.filter((s) => s.category === params.category)
   
   if (shipsFilter.length === 0) {
     return notFound()
@@ -18,7 +16,7 @@ export default function Page({ params }: { params: { category: string } }) {
   
   return (
     <div>
-      <h1>{category}</h1>
+      <h1>{params.category}</h1>
       <div className="grid-container">
         { shipsFilter.map(ship => (
           <Link key={ship.id} href={`/spaceships/${ship.id}`} className="btn-grid">{ship.name}</Link>    

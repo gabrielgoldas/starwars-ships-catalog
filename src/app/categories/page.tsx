@@ -1,5 +1,5 @@
 import Link from "next/link"
-import spaceships from "../../../spaceships.json"
+import spaceships from "@/data/spaceships.json"
 
 const uniqueCategories = [...new Set(spaceships.map(spaceship => spaceship.category))]
 

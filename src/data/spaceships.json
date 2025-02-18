@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "X-Wing",
     "model": "T-65B X-Wing",
     "category": "Starfighter",
@@ -8,7 +8,7 @@
     "imageUrl": "/images/Xwing-ROOCE.webp"
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "TIE Fighter",
     "model": "TIE/ln Space Superiority Starfighter",
     "category": "Starfighter",
@@ -16,7 +16,7 @@
     "imageUrl": "/images/TIE_Fighter_DICE.webp"
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Millennium Falcon",
     "model": "YT-1300 Light Freighter",
     "category": "Freighter",
@@ -24,7 +24,7 @@
     "imageUrl": "/images/Millennium_Falcon_Fathead_TROS.webp"
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Corellian Corvette",
     "model": "CR90 Corvette",
     "category": "Corvette",
@@ -32,7 +32,7 @@
     "imageUrl": "/images/CR90corvette-BTMF18.webp"
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Star Destroyer",
     "model": "Imperial I-class Star Destroyer",
     "category": "Capital Ship",
@@ -40,7 +40,7 @@
     "imageUrl": "/images/ImperialStarDestroyer-RFGE.webp"
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Slave I",
     "model": "Firespray-31-class Patrol and Attack Craft",
     "category": "Patrol Craft",
@@ -48,7 +48,7 @@
     "imageUrl": "/images/Slave_I_DICE.webp"
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Y-Wing",
     "model": "BTL-A4 Y-Wing",
     "category": "Bomber",
@@ -56,7 +56,7 @@
     "imageUrl": "/images/Ywing.webp"
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "TIE Interceptor",
     "model": "TIE/IN Starfighter",
     "category": "Starfighter",
@@ -64,7 +64,7 @@
     "imageUrl": "/images/TIE_Interceptor_BF.webp"
   },
   {
-    "id": "9",
+    "id": 9,
     "name": "A-Wing",
     "model": "RZ-1 A-Wing Interceptor",
     "category": "Interceptor",
@@ -72,7 +72,7 @@
     "imageUrl": "/images/A-wing_DICE.webp"
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "B-Wing",
     "model": "A/SF-01 B-Wing Starfighter",
     "category": "Bomber",
@@ -80,7 +80,7 @@
     "imageUrl": "/images/B-wing-Squadronds.webp"
   },
   {
-    "id": "11",
+    "id": 11,
     "name": "Imperial Shuttle",
     "model": "Lambda-class T-4a Shuttle",
     "category": "Transport",
@@ -88,7 +88,7 @@
     "imageUrl": "/images/LambdaShuttle-Fathead.webp"
   },
   {
-    "id": "12",
+    "id": 12,
     "name": "Ebon Hawk",
     "model": "Dynamic-class Freighter",
     "category": "Freighter",
@@ -96,7 +96,7 @@
     "imageUrl": "/images/EbonhawkSW.webp"
   },
   {
-    "id": "13",
+    "id": 13,
     "name": "TIE Bomber",
     "model": "TIE/sa Bomber",
     "category": "Bomber",
@@ -104,7 +104,7 @@
     "imageUrl": "/images/TIEbomber-RFGE.webp"
   },
   {
-    "id": "14",
+    "id": 14,
     "name": "Republic Attack Cruiser",
     "model": "Venator-class Star Destroyer",
     "category": "Capital Ship",
@@ -112,7 +112,7 @@
     "imageUrl": "/images/Venator2-SWE.webp"
   },
   {
-    "id": "15",
+    "id": 15,
     "name": "Naboo Starfighter",
     "model": "N-1 Starfighter",
     "category": "Starfighter",
@@ -120,7 +120,7 @@
     "imageUrl": "/images/N-1_BF2.webp"
   },
   {
-    "id": "16",
+    "id": 16,
     "name": "Tri-Fighter",
     "model": "Droid Tri-fighter",
     "category": "Starfighter",
@@ -128,7 +128,7 @@
     "imageUrl": "/images/DroidTrifighter-TCWs3BR2.webp"
   },
   {
-    "id": "17",
+    "id": 17,
     "name": "ARC-170",
     "model": "Aggressive Reconnaissance-170 Starfighter",
     "category": "Starfighter",
@@ -136,7 +136,7 @@
     "imageUrl": "/images/ARC170starfighter.webp"
   },
   {
-    "id": "18",
+    "id": 18,
     "name": "Jedi Interceptor",
     "model": "Eta-2 Actis-class Interceptor",
     "category": "Starfighter",
@@ -144,7 +144,7 @@
     "imageUrl": "/images/Eta-2JediInterceptor-USC.webp"
   },
   {
-    "id": "19",
+    "id": 19,
     "name": "Ghost",
     "model": "VCX-100 Light Freighter",
     "category": "Freighter",
@@ -152,7 +152,7 @@
     "imageUrl": "/images/GhostLiveAction-Fathead.webp"
   },
   {
-    "id": "20",
+    "id": 20,
     "name": "Super Star Destroyer",
     "model": "Executor-class Star Dreadnought",
     "category": "Capital Ship",

@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "700"]
 });
 
 export const metadata: Metadata = {
@@ -24,7 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${roboto.variable}`}>
+        <header className="header">
+          <div className="logo">ESPAÇONAVES DO STAR WARS</div>
+          <nav className="navigation">
+            <Link className="link" href="/">INÍCIO</Link>
+            <Link className="link" href="/spaceships">ESPAÇONAVES</Link>
+            <Link className="link" href="/categories">CATEGORIAS</Link>
+          </nav>
+        </header>
         {children}
       </body>
     </html>
